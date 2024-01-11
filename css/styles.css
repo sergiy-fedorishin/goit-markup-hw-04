@@ -107,7 +107,7 @@ color: #404bbf;
   content: "";
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -10px;
   background-color: #404bbf;
   border-radius: 2px;
   height: 4px;
