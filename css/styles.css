@@ -101,11 +101,10 @@ img {
 .header-link {
   color: #2e2f42;
   padding: 24px 0;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-item {
-  
 }
 
 .current {
@@ -135,7 +134,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-item {
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link {
@@ -144,6 +142,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -158,12 +157,16 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/people-office\ 1.jpg);
+    url(../images/hero/people-office\ 1.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.hero-container {
+ 
 }
 
 .hero-name {
@@ -176,6 +179,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/hero/people-office\ 1.jpg);
 }
 
 .button-hero {
@@ -204,6 +210,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .button-hero:focus {
   background-color: #404bbf;
 }
+
+/* feuters */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -289,7 +298,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .team-img {
   background-color: #fff;
-  
 }
 
 .team-name {
@@ -319,16 +327,15 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-/* .team-social {
+.team-social {
    display: flex;
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
-} */
+}
 
 .socials-list {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials {
@@ -357,7 +364,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
+
   fill: #f4f4fd;
+
 }
 
 /* our portfolio */
@@ -385,16 +394,13 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-wrapper {
   position: relative;
   overflow: hidden;
-  
 }
-
 
 .overlay {
   position: absolute;
@@ -412,7 +418,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- 
 .portfolio-wrapper:hover .overlay {
   transform: translateY(0%);
 }
@@ -460,7 +465,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-container {
   display: flex;
   align-items: baseline;
- 
 }
 
 .socials-footer {
@@ -470,7 +474,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-logo {
-   margin-right: 120px;
+  margin-right: 120px;
 }
 
 .footer-list {
